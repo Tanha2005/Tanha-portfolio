@@ -191,16 +191,18 @@ padding: 12px;
 .skilitem{
     display: flex;
     font-weight: 700;
+    width: 18em;
 }
 .skill{
-    width: 265px;
+    margin: 3px;
+    width: 12em;
     height: 6px;
     background-color: red;
     border: 2px solid black;
 
 }
 .hn{
-    width: 265px;
+    width: 10em;
     background-color: chartreuse;
 }
 .fifty{
@@ -221,6 +223,9 @@ padding: 12px;
     top: 10px;
     left: 10px;
 }
+.form-check-label{
+    margin-left: 12px;
+}
 .hamp{
     margin-top: 12px;
     margin-left: 10px;
@@ -230,7 +235,7 @@ padding: 12px;
 margin-top: 12px;
 }
 
-@media ( max-width: 1510px){
+@media ( max-width: 1310px){
     *{
         /* background-color: rgb(231, 180, 180); */
     }
@@ -243,8 +248,21 @@ margin-top: 12px;
     .devpic{
         display: none;
     }
-    .intro, .contactform, .container{
+    .intro,.container{
         margin: 50px 8px;
+    }
+    .contactform{
+        margin: 50px 30px;
+
+    }
+    .skill{
+        width: 265px;
+    }
+    .skilitem{
+width: 700px;
+    }
+    .hn{
+        width: 266px;
     }
     /* .sidebar{
         transform: translate(-443px, 0px);
