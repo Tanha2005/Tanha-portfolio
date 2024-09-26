@@ -66,6 +66,7 @@ margin-bottom: 20px;
 .btn{
     margin-top: 25px;
     font-size: 10px;
+    border: none;
 }
 .btn button{
 padding: 9px 14px;
@@ -76,6 +77,7 @@ font-weight: bold;
 font-size: 2em;
 margin: 0 3px;
 cursor: pointer;
+border: none;
 }
 
 .btn button:hover{
@@ -91,6 +93,7 @@ font-weight: bold;
 font-size: 21px;
 margin: 7px 3px;
 cursor: pointer;
+border: none;
 }
 .btn1:hover{
     background-color: white;
